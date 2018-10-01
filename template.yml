@@ -22,7 +22,7 @@ Resources:
   GetHelloWorld:
     Type: AWS::Serverless::Function
     Properties:
-      Handler: br.com.vetapp.api.handle.HelloWorldHandler
+      Handler: br.com.vetapp.api.handle.APIDemoHandler
       Runtime: java8
       Role:
         Fn::ImportValue:
@@ -37,7 +37,7 @@ Resources:
   PostHelloWorld:
     Type: AWS::Serverless::Function
     Properties:
-      Handler: br.com.vetapp.api.handle.handler.HelloWorldHandler
+      Handler: br.com.vetapp.api.handle.APIDemoHandler
       Runtime: java8
       Role:
         Fn::ImportValue:
