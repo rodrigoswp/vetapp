@@ -1,4 +1,4 @@
-package com.aws.codestar.projecttemplates;
+package  br.com.vetapp.api;
 
 import java.util.Collections;
 import java.util.HashMap;

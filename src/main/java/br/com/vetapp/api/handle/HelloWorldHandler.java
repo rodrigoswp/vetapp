@@ -1,13 +1,14 @@
-package com.aws.codestar.projecttemplates.handler;
+package br.com.vetapp.api.handle;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import org.json.JSONObject;
 
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestHandler;
 
-import com.aws.codestar.projecttemplates.GatewayResponse;
-import org.json.JSONObject;
-
-import java.util.HashMap;
-import java.util.Map;
+import br.com.vetapp.api.GatewayResponse;
 
 /**
  * Handler for requests to Lambda function.
